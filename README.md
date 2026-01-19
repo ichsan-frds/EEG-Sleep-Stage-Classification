@@ -10,34 +10,36 @@ This corresponds to a subset of 153 recordings from 37 males and 41 females that
 
 ## Installation Guide
 
-### 1. Notebook
+### A. Notebook
 Presents the results of an initial exploratory data analysis (EDA) of the polysomnography (PSG) dataset used in the Machine Learning course assignment. The analysis focuses on understanding the dataset structure, sleep stage label distribution, raw signal quality, and EEG signal frequency characteristics prior to the preprocessing and deep learning modeling stages.
 
 In addition, this notebook also covers the complete pipeline including data preprocessing, model building, training, and evaluation of two different approaches for sleep stage classification: EEGNet and YASA.
 
 #### Local
 
-##### Create Virtual Environment (Optional, but recommended)
+##### 1. Create Virtual Environment (Optional, but recommended)
 ```
 python -m venv venv
 venv\Scripts\activate
 ```
 
-##### Install dependencies
+##### 2. Install dependencies
 ```
 pip install numpy scipy pandas scikit-learn matplotlib seaborn tensorflow lightgbm
 ```
 
-##### Run Notebook.ipynb
+##### 3. Run Notebook.ipynb
 
 #### Google Colab
 
-##### Run Notebook.ipynb
+##### 1. Run Notebook.ipynb
 
-### 2. Apps
+### B. Apps
 The application accept input (e.g., sample EEG data or simulated data) and display the prediction/classification results produced by the model.
 
-#### Install dependencies
+#### 1. Install dependencies
 ```
 pip install -r Apps/requirements.txt
 ```
+
+#### 2. Streamlit run app.py
