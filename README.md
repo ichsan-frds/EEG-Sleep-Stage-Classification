@@ -1,4 +1,6 @@
 # EEG Sleep Stage Classification
+![MNE Datasets](https://raw.githubusercontent.com/ichsan-frds/EEG-Sleep-Stage-Classification/refs/heads/main/EEGSleepStageImage.png)
+
 This project presents an end-to-end implementation of sleep stage classification from PSG/EEG signals using two different approaches: EEGNet (deep learning) and YASA (feature-based machine learning), evaluated on a subset of the Sleep Physionet dataset. The dataset consists of full-night PSG recordings from healthy subjects, segmented into 30-second epochs and classified into five sleep stages (W, N1, N2, N3, REM).
 
 ## Dataset
